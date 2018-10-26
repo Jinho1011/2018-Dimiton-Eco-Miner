@@ -1,1 +1,1 @@
-Ecomining [ BlockChain + A.I ]
+Ecomining
