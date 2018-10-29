@@ -1,0 +1,84 @@
+html,
+body {
+    height: 100%;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    background-image: url(../images/login_background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    background: #232323;
+    opacity: 0.8;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 8% 8%;
+}
+
+.header {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    height: 140px;
+}
+
+.header-title {
+    width: 100%;
+    background-size: contain;
+    background-repeat:no-repeat;
+    background-image: url(../images/login-logo.png);
+    z-index: 70;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label span {
+    color: white;
+}
+
+.login-btn {
+    margin-bottom: 10px;
+    background: #f9f9f9;
+    border-radius: 25px;
+    width: 100%;
+    outline: none;
+    padding: 5px 0;
+    border: none;
+}
+
+.form-control {
+    border: none;
+    border-radius: 0;
+    padding: 12px 0;
+    width: 100%;
+    font-size: 15px;
+    background: none;
+    outline: none;
+    border-bottom: 5px solid white;
+    color: #f9f9f9;
+}
+
+.signup-text {
+    color: #f9f9f9;
+}
+
+.signup-text a {
+    color: #f9f9f9;
+    text-decoration: none;
+}
+

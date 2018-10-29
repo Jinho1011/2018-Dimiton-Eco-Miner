@@ -1,0 +1,70 @@
+html,
+body {
+    height: 100%;
+}
+
+body {
+    background: #efefef;
+    padding: 0 5%;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    width: 100%;
+    padding: 0 20px;
+    background: #2ecc71;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 6px 12px 0 rgba(21, 19, 19, .1);
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 30px;
+}
+
+.header-title a {
+    font-family: 'Simply Rounded';
+    font-size: 2rem;
+    text-decoration: none;
+    color: #f9f9f9;
+}
+
+.header-menus {
+    display: flex;
+}
+
+.header-menus .header-menu {
+    margin: 0 10px;
+}
+
+.header-menus .header-menu a {
+    font-family: 'Simply Rounded';
+    font-size: 22px;
+    text-decoration: none;
+    color: #f9f9f9;
+}
+
+.content {
+    padding: 40px 20px 0 20px;
+    height: 100%;
+    background: #f9f9f9;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+}
+
+.history-table {
+    width: 100%;
+    height: 100%;
+}
+
+.history-table th {
+    font-size: 20px;
+    color: #4f4f4f;
+}
+
+.history-table tr {
+
+}

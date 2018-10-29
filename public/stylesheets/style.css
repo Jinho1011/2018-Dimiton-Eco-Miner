@@ -1,0 +1,12 @@
+@import 'reset.css';
+@import url('https://fonts.googleapis.com/css?family=Anton');
+@font-face {
+    font-family: "Simply Rounded";
+    font-style: normal;
+    font-weight: 600;
+    src: url(../fonts/Simply\ Rounded\ Bold.ttf); /* IE9 Compat Modes */
+    src: url(../fonts/Simply\ Rounded\ Bold.ttf?#iefix) format("embedded-opentype"), /* IE6-8 */
+         url(../fonts/Simply\ Rounded\ Bold.ttf) format("woff"), /* Mordern Browsers */
+         url(../fonts/Simply\ Rounded\ Bold.ttf) format("truetype"); /* If not support woff */
+}
+

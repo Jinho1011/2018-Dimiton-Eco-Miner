@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>
+		<%= title %>
+	</title>
+	<link rel='stylesheet' href=' /stylesheets/style.css' />
+	<link rel='stylesheet' href='/stylesheets/index.css' />
+</head>
+
+<body>
+	<div class="container">
+		<div class="header">
+			<div class="header-title"></div>
+		</div>
+		<div class="content">
+			<form class="login-form" action="/auth/join" method="POST">
+				<div class="form-group">
+					<label class="label-id" for="id">
+						<span class="label-text">ID</span>
+					</label>
+					<input class="form-control" type="id" name="id" required autofocus>
+				</div>
+				<div class="form-group">
+					<label class="label-password" for="password">
+						<span class="label-text">Password</span>
+					</label>
+					<input class="form-control" type="password" name="password" required>
+				</div>
+				<button class="login-btn" type="submit">Login</button>
+				<p class="signup-text">Don't have an account? <a href="/join">Sign Up</a></p>
+			</form>
+		</div>
+	</div>
+</body>
+
+</html>
